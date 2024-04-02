@@ -23,7 +23,29 @@ The function then selects the top 7 sentences with the highest scores using the 
 
 1. Clone the repository:
 
-   ```bash
+   ```
    git clone https://github.com/YashitaaArya/Text-Summariser-UI.git
    ```
-2. 
+2. Install all the required dependencies of the code i.e. `nltk`, `spacy` and `beautifulsoup4` using `pip` command in your terminal:
+   ```
+   pip install nltk spacy beautifulsoup4
+   ```
+3. Download the NLTK data for using Natural language processing tools:
+   ```
+   import nltk
+   nltk.download('punkt')
+   nltk.download('stopwords')
+   ```
+4. Next install the English model for spaCy using:
+   ```
+   python3 -m spaCy download en_core_web_sm
+   ```
+   Remember using `python` or `python3` completely depends on your system configuartion.
+5. Now that you've installed all the basic necessities, go to your directory where this repository is cloned. Get into Updated_GUI folder and enter:
+   ```
+   python3 main.py
+   ```
+<br>
+A window with title `Summarizer GUI` pops up which has 2 tabs in left: Summarize and URL.
+
+*For any edits or modifications, I'm open to all suggestions and updations! Thanks for reading till here!!*
