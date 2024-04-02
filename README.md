@@ -18,8 +18,6 @@ The function then selects the top 7 sentences with the highest scores using the 
 
 - Summarize text input by the user.
 - Summarize text extracted from a URL.
-- Customize summarization settings.
-- Dark mode support.
 
 ## Installation
 
@@ -27,4 +25,5 @@ The function then selects the top 7 sentences with the highest scores using the 
 
    ```bash
    git clone https://github.com/YashitaaArya/Text-Summariser-UI.git
-
+   ```
+2. 
