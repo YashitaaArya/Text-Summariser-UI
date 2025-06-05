@@ -49,3 +49,12 @@ The function then selects the top 7 sentences with the highest scores using the 
 A window with title `Summarizer GUI` pops up which has 2 tabs in left: Summarize and URL.
 
 *For any edits or modifications, I'm open to all suggestions and updations! Thanks for reading till here!!*
+
+## License
+  This project is licensed under the MIT License.
+  
+---
+
+## Author
+ Yashitaa Arya
+ CSE | NIT Hamirpur
